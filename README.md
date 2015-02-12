@@ -15,4 +15,5 @@ Exiteixen dues versions:
 
 En qualsevol dels dos casos, les configuracions a fer per portar les pàgines a un entorn de producció consisteixen en:
 * Actualitzar la variable **democracyHost** amb la URL base del servidor de DemocracyOS al que estem atacant (p.ex. "http://programa-test.herokuapp.com")
-* Actualitzasr les estructures de dades **districts** i **program** amb les lawId corresponents a cada una de les discussions. (p.ex. de http://programa-test.herokuapp.com/law/54d889bc1eaee3455707c881, *54d889bc1eaee3455707c881* correspondria a la lawId)
+* Actualitzar les estructures de dades **districts** i **program** amb les lawId corresponents a cada una de les discussions. (p.ex. de http://programa-test.herokuapp.com/law/54d889bc1eaee3455707c881, *54d889bc1eaee3455707c881* correspondria a la lawId)
+* Les pàgines contenen una capçalera i peu de pàgina seguint l'estil de barcelonaencomu.cat, però en cas d'integrar-les dins de la plataforma, caldria eliminar aquestes seccions.
