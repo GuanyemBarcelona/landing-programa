@@ -1,0 +1,177 @@
+/* ------------------------------------------------------------------------- */
+/* Global markup, to be removed                                              */
+/* ------------------------------------------------------------------------- */
+html, body {
+  font-size: 14px;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+  color: #595959;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #e65c56;
+}
+
+body {
+  text-align: center;
+  min-width: 500px;
+}
+
+#pgm-footer {
+  background: #e65c56;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+#pgm-footer img {
+  width: 100%;
+}
+
+
+
+/* ------------------------------------------------------------------------- */
+/* Program related markup                                                    */
+/* ------------------------------------------------------------------------- */
+.pgm-intro {
+  font-size: 17px;
+  line-height: 21.25px;
+}
+.pgm-hidden {
+  display: none;
+}
+
+a.pgm-btn {
+  background: #e65c56;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  font-weight: normal;
+  padding: 10px;
+  text-decoration: none;
+}
+a.pgm-btn:hover {
+  background: #E63023;
+}
+
+.pgm-container {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 10px;
+  text-align: left;
+  width: 1000px;
+}
+
+@media screen and (max-width: 1024px){
+  .pgm-container {
+    width: 760px;
+  }
+}
+@media screen and (max-width: 768px){
+  .pgm-container {
+    width: 100%;
+  }
+}
+
+
+
+/* ------------------------------------------------------------------------- */
+/* Program subjects related markup                                           */
+/* ------------------------------------------------------------------------- */
+.pgm-subjects ul {
+  margin: 0;
+  padding: 0;
+}
+.pgm-subjects li {
+  box-sizing: border-box;
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+  width: 50%;
+}
+@media screen and (max-width: 1024px){
+  .pgm-subjects li {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .pgm-subjects li {
+    width: 100%;
+  }
+}
+
+.pgm-program-content {
+  background: #eee;
+  height: 260px;
+  overflow: hidden;
+  position: relative;
+}
+
+.pgm-area-0 .pgm-program-content {
+  background: url(../img/subject1.jpg) no-repeat center center;
+  background-size: cover;
+}
+.pgm-area-1 .pgm-program-content {
+  background: url(../img/subject2.jpg) no-repeat center center;
+  background-size: cover;
+}
+.pgm-area-2 .pgm-program-content {
+  background: url(../img/subject3.jpg) no-repeat center center;
+  background-size: cover;
+}
+.pgm-area-3 .pgm-program-content {
+  background: url(../img/subject4.jpg) no-repeat center center;
+  background-size: cover;
+}
+.pgm-program-content-desc-bkg {
+  background: rgba(0,0,0,0.9);
+  bottom: 0px;
+  box-sizing: border-box;
+  left: 0;
+  height: 55px;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  -webkit-filter: blur(20px);
+  filter: blur(20px);
+}
+.pgm-program-content-desc {
+  bottom: 0;
+  box-sizing: border-box;
+  font-weight: 300;
+  left: 0;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+}
+.pgm-program-content-desc .pgm-area-name,
+.pgm-program-content-desc .summary {
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 0 1px black;
+}
+.pgm-subjects a {
+  bottom: 10px;
+  position: absolute;
+  right: 10px;
+}
+@media screen and (max-width: 1024px){
+  .pgm-program-content {
+    height: 195px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .pgm-program-content {
+    height: 250px;
+  }
+}
