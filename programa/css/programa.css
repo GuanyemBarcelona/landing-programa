@@ -40,8 +40,18 @@ body {
 /* ------------------------------------------------------------------------- */
 /* Program related markup                                                    */
 /* ------------------------------------------------------------------------- */
+.pgm-help {
+  color: #E65C56;
+  float: right;
+  font-weight: bold;
+  margin: 40px 0;
+  text-transform: uppercase;
+}
+.pgm-help i {
+  margin-left: 5px;
+}
 .pgm-intro {
-  font-size: 17px;
+  font-size: 16px;
   line-height: 21.25px;
 }
 .pgm-hidden {
